@@ -2,7 +2,6 @@
 require 'function.php'
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -34,7 +33,7 @@ require 'function.php'
                                                 <input class="form-control" name="password" type="password" placeholder="Password" />
                                                 <label for="inputPassword">Password</label>
                                             </div>
-                                            <button type="submit" name="login" class="btn btn-primary">Login 
+                                            <button type="submit" name="login" class="btn btn-primary">Login
                                             </button>
                                         </form>
                                     </div>
