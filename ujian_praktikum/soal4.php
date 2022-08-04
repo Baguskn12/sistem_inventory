@@ -1,0 +1,1 @@
+"SELECT * FROM detail_pesanan p, produk pr, pelanggan pl WHERE p.id_produk=pr.id_produk AND id_pesanan='id_pesanan'
