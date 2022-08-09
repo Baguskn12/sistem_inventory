@@ -111,7 +111,7 @@ $h2 = mysqli_num_rows($h1);
                                     while ($pl = mysqli_fetch_array($getpelanggan)) {
                                         $id_pelanggan = $pl['id_pelanggan'];
                                         $nama_pelanggan = $pl['nama_pelanggan'];
-                                        $notelp = $pl['no_telp'];
+                                        $notelp = $pl['notelp'];
                                         $alamat = $pl['alamat'];
 
                                     ?>
@@ -146,7 +146,7 @@ $h2 = mysqli_num_rows($h1);
                                                     <div class="modal-body">
                                                         <input type="text" name="nama_pelanggan"
                                                             class="form-control mt-3" value="<?= $nama_pelanggan; ?>">
-                                                        <input type="text" name="no_telp" class="form-control mt-3"
+                                                        <input type="text" name="notelp" class="form-control mt-3"
                                                             value="<?= $notelp;  ?>">
                                                         <input type="text" name="alamat" class="form-control mt-3"
                                                             value="<?= $alamat;  ?>">
@@ -235,7 +235,7 @@ $h2 = mysqli_num_rows($h1);
                 <!-- Modal body -->
                 <div class="modal-body">
                     <input type="text" name="nama_pelanggan" class="form-control mt-3" placeholder="nama pelanggan">
-                    <input type="text" name="no_telp" class="form-control mt-3" placeholder="no telp">
+                    <input type="text" name="notelp" class="form-control mt-3" placeholder="notelp">
                     <input type="text" name="alamat" class="form-control mt-3" placeholder="alamat">
                 </div>
 
